@@ -1,0 +1,7 @@
+- name: Software
+  link: /software.html
+- name: Cybersecurity
+  link: /cybersecurity.html
+- name: Analytics
+  link: /analytics.html
+  

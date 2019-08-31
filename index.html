@@ -1,0 +1,71 @@
+---
+
+---
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        <p class="lead my-3">I'm Joe Clark, a veteran software developer and analytics consultant based in northern and western Maine, and <span class="satisfy">Sandy River Software</span> is my consulting brand.  I was one of the first Maine web developers in the late 1990s, then went to work out west for NBC and Disney Online during the dot-com bubble.  I spent a decade in academia, earned a Ph.D. from USC, and taught courses on information systems and data analytics at Arizona State and UMaine between 2013 and 2019.  Now I'm hanging out my shingle as an independent consultant... let's see what I can do for you!</p>
+        
+        <h1>blog posts</h1>
+        <ul>
+        {% for post in site.posts %}
+            <li>
+                {{ post.date|date_to_string }} &gt; <a href="{{post.url}}">{{ post.title | downcase }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+        
+    </div>
+
+    <div class="col-md-6">
+        
+        <div class="card my-3">
+            <div class="card-body">
+                <h5 class="card-title">Custom software</h5>
+                <div class="row align-items-center">
+                    <div class="col-auto p-1">
+                        <a href="/software.html"><img src="assets/images/customsoftware.svg" width="100" class="img-fluid"></a>
+                    </div>
+                    <div class="col p-1">
+                        From simple websites to complex applications, starting from scratch or building on an existing project, I can help. I have over 20 years of programming experience in Java, Python, JavaScript, and several other popular languages and frameworks.
+                        <a href="/software.html" class="card-link">Read more...</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card my-3">
+            <div class="card-body">
+                <h5 class="card-title">Data analytics</h5>
+                <div class="row align-items-center">
+                    <div class="col-auto p-1">
+                        <a href="/analytics.html"><img src="assets/images/analytics.svg" width="100" class="img-fluid"></a>
+                    </div>
+                    <div class="col p-1">
+                        Does your business have an information system full of data that you can't pull out of it?  I've helped businesses like yours extract that information into reports, statistics, and dashboards to get the best business uses of it.
+                        <a href="/analytics.html" class="card-link">Read more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card my-3">
+            <div class="card-body">
+                <h5 class="card-title">Cybersecurity</h5>
+                <div class="row align-items-center">
+                    <div class="col-auto p-1">
+                        <a href="/cybersecurity.html"><img src="assets/images/security.svg" width="100" class="img-fluid"></a>
+                    </div>
+                    <div class="col p-1">
+                        Every business these days is at risk of cyberattack, and small-to-medium-sized businesses may be especially attractive targets for criminal hackers because of their often inadequate defenses.  I can help you identify your most meaningful risks and make a plan to mitigate them.
+                        <a href="/cybersecurity.html" class="card-link">Read more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
