@@ -12,6 +12,8 @@ Maine businesses have a serious need for information systems, business intellige
 
 I am what they call nowadays a "full-stack" developer, combining front-end web design skills (HTML, CSS, Javascript, Bootstrap, Angular) with back-end database modeling and development (SQL, PostgreSQL, MongoDB, etc.), and the programming layer in the middle (my main languages recently have been Java and Python, but I'm flexible). Because I also have a pretty good understanding of statistics and data visualization (and I teach courses on these), I think my skills are uniquely suited for developing analytics and information systems that allow users to make sense of their data. Have you got organizational databases full of potentially valuable information that you can't easily extract as reports or dashboards? I think every business does.
 
+- [My r&eacute;sum&eacute;](/assets/files/joeclark-resume-2020.pdf)
+
 ## As a researcher
 
 I finished my Ph.D. in Information Systems at USC in 2012 and, since then, have continued to publish some academic research.  One area I've been interested in since my dissertation is theories of decision-making under uncertainty, which I study with computer simulation models.  More recently, I've become interested in work systems like Agile software development and Lean manufacturing, and how information technology can or does improve the working life in such systems.  I've published in the most prestigious information systems conferences: ICIS (SIGDSA), AMCIS, and HICSS.
