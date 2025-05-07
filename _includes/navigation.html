@@ -1,6 +1,0 @@
-            <div class="navbar-nav">
-                {% for item in site.data.navigation %}
-                <a class="nav-item nav-link {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
-                {% endfor %}
-                <a class="nav-item nav-link {% if page.url == '/authors/joe.html' %}active{% endif %}" href="/authors/joe.html">Joe</a>
-            </div>
